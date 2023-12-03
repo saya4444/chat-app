@@ -1,0 +1,50 @@
+.wrapper{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+
+
+
+
+.side_bar{
+  width: 300px;
+  padding: 0px 20px;
+}
+
+.name_corner{
+  height: 100px;
+  background-color: #253141;
+}
+
+.chat_list_corner{
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+}
+
+
+
+
+
+.main_chat{
+  width: calc(100vw - 300px);
+  padding: 0px 40px;
+}
+
+.chat_name_corner{
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.chat_corner{
+  height: calc(100vh - 100px - 90px);
+  background-color: #FAFAFA;
+  padding-top: 46px;
+}
+
+.input_corner{
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 0px;
+}
