@@ -4,21 +4,7 @@
 </div>
 
 <div class="chat_corner">
-  <div class="chat">
-    <div class="chat_info">
-      <div class="chat_user">Tom</div>
-      <div class="chat_date">2023/02/04 12:40</div>
-    </div>
-    <div class="chat_text">おはよう</div>
-  </div>
-
-  <div class="chat">
-    <div class="chat_info">
-      <div class="chat_user">Tom</div>
-      <div class="chat_date">2023/02/04 14:40</div>
-    </div>
-    <div class="chat_text">こんばんは</div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 
